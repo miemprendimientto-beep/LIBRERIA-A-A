@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>LIBRERIA A & A</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Fuentes -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Título Librería -->
+<h1 class="titulo-libreria">LIBRERIA A & A</h1>
+
+<!-- Menú de secciones -->
+<div class="menu">
+  <button class="btn-seccion papeleria" onclick="mostrarSeccion('papeleria')">Papelería básica</button>
+  <button class="btn-seccion escritura" onclick="mostrarSeccion('escritura')">Escritura</button>
+  <button class="btn-seccion utiles" onclick="mostrarSeccion('utiles')">Útiles escolares</button>
+  <button class="btn-seccion artes" onclick="mostrarSeccion('artes')">Artes y manualidades</button>
+  <button class="btn-seccion papeles" onclick="mostrarSeccion('papeles')">Papeles y envoltorios</button>
+  <button class="btn-seccion mochilas" onclick="mostrarSeccion('mochilas')">Mochilas y accesorios</button>
+  <button class="btn-seccion instrumentos" onclick="mostrarSeccion('instrumentos')">Instrumentos y tecnología</button>
+  <button class="btn-seccion libros" onclick="mostrarSeccion('libros')">Libros y material educativo</button>
+</div>
+
+<!-- Catálogo de productos -->
+<div id="catalogo"></div>
+
+<!-- Botones de carrito y cotización -->
+<button onclick="verCarrito()">VER MI CARRITO</button>
+<div id="carrito"></div>
+
+<button onclick="enviarWhatsApp()">ENVIAR COTIZACIÓN</button>
+
+<!-- Script -->
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  padding: 20px;
+  background-color: #FFE5D4; /* durazno */
+}
+
+h1 {
+  text-align: center;
+}
+
+.producto {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+#carrito {
+  margin-top: 20px;
+  border-top: 2px solid black;
+  padding-top: 10px;
+}
+
+.producto-flex {
+  display: flex;
+  align-items: center; /* centra verticalmente */
+  gap: 15px;           /* espacio entre imagen y texto */
+}
+
+.img-producto {
+  width: 100px;       /* tamaño de la imagen */
+  height: 100px;
+  object-fit: contain;
+}
+
+.info-producto {
+  flex: 1;            /* ocupa todo el espacio restante */
+}
+
+.titulo-libreria {
+  font-family: 'DM Serif Text', serif;
+  text-align: center;
+  font-size: 44px;
+  color: #D16C6C;
+  margin-bottom: 30px;
+}
+
+/* ===== BOTONES DE SECCIONES ===== */
+
+.menu {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.btn-seccion {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 20px;
+  margin: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.btn-seccion:hover {
+  transform: scale(1.05);
+}
+
+/* COLORES PASTELES POR SECCION */
+.papeleria { background-color: #FFD6E0; }
+.escritura { background-color: #D6EAF8; }
+.utiles { background-color: #E8F8F5; }
+.artes { background-color: #FDEBD0; }
+.papeles { background-color: #FADADD; }
+.mochilas { background-color: #E6E6FA; }
+.instrumentos { background-color: #D5F5E3; }
+.libros { background-color: #FFF2CC; }
+
